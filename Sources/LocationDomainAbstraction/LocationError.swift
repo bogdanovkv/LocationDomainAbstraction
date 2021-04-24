@@ -8,4 +8,6 @@
 import Foundation
 
 /// Ошибки кейсов
-public enum LocationError: Error {}
+public enum LocationError: Error {
+	case undefined
+}
